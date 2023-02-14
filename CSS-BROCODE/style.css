@@ -1,0 +1,230 @@
+body {
+  background-color: gray;
+}
+h1 {
+  color: whitesmoke;
+  font-family: "press Start 2P",sans-serif,Arial, Helvetica, sans-serif;
+}
+p {
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#p1 {
+  color: tomato;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: cyan wavy underline;
+  font-size: 18px;
+}
+.odd {
+  color: red;
+}
+#p5 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: gold;
+  border-radius: 10px;
+  padding: 5px;
+}
+h1 {
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: double;
+  border-left-width: 10px;
+  border-left-color: white;
+}
+body {
+  background-color: linear-gradientto right(skyblue,lightgreen);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(myBackground.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  background-color: linear-gradient(to right,skyblue,green);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#box1 {
+  border: 5px solid;
+  width: 250px;
+  height: 250px;
+  font-size: 22px;
+  background-color: green;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin: 50px;
+  margin-left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#box2 {
+  border: 5px solid;
+  width: 250px;
+  height: 250px;
+  font-size: 22px;
+  background-color: green;
+  padding: 50px;
+}
+body {
+  border: 2px solid;
+  margin: 0;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  font-size: 40px;
+  text-align: center;
+  background-color: tomato;
+  float: right;
+}
+p {
+  clear: left;
+  clear: right;
+  clear: both;
+}
+#box1 {
+  border: 1px solid;
+  height: 300px;
+  width: 300px;
+  background-color: skyblue;
+  position: relative;
+  top: 50px;
+  left: 20px;
+  position: absolute;
+  position: relative;
+  position: fixed;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+}
+#box2 {
+  border: 1px solid;
+  height: 100px;
+  width: 300px;
+  background-color: tomato;
+  position: relative;
+  top: 150px;
+  left: 150px;
+  position: absolute;
+  top: 150;
+  left: 150px;
+  top: 100px;
+  left: 100px;
+}
+a:link {
+  color: lawngreen;
+}
+a:visited {
+  color: gray;
+}
+a:hover {
+  color: tomato;
+}
+a:active {
+  color: yellow;
+}
+button:hover {
+  background-color: lightgray;
+}
+button:active {
+  background-color: white;
+}
+li:nth-child(5) {
+  background-color: yellow;
+}
+li:nth-child(even) {
+  background-color: skyblue;
+}
+li:nth-child(4n) {
+  background-color: blue;
+}
+
+h1 {
+  text-shadow: 0px 0px 0px grey;
+}
+h1 {
+  text-shadow: 0px 0px 5pz yellow, 0px -5px 5px red;
+  
+}
+h1:hover {
+  box-shadow: 5px 0px 5px black;
+}
+.fa-twitter {
+  color: aqua;
+
+}
+fa.youtube {
+  color: red;
+}
+#box1 {
+  border: 4px solid;
+  width: 250px;
+  height: 250px;
+  font-size: 225px;
+  text-align: center;
+  background: lightblue;
+  transform: translateX(50px);
+  transform: translateY(50pz);
+  transform: translate(50px, 50px);
+  transform: rotateX(180deg);
+  transform: scaleX(3);
+  transform: scaleY(3);
+  transform: scale(2,3);
+  transform: skewX(45deg);
+  transform: skewY(45deg);
+  transform: skew(20deg, 20deg);
+  transform: matrix(1,0,0,1,0,0);
+
+}
+#box1 {
+  width: 250px;
+  height: 250px;
+  background: red;
+  font-size: 225px;
+  text-align: center;
+  animation: mySlide;
+  animation-play-state: running;
+  animation-delay: 0s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation: mySlide 3s linear 0s infinite running ;
+  
+
+}
+#box1:hover {
+  animation: mySlide 3s linear 0s infinite running fill-mode;
+}
+#box1:active {
+  animation: mySlide 3s linear 0s infinite running fill-mode;
+}
+@keyframes mySlide{
+  from {margin-left: 0%;}
+  to {margin-left: 100%;}
+}
+@keyframes myRotate {
+  100%{
+    transform: rotateX(360deg);}
+}
+@keyframes myOpacity {
+  50%{opacity: 0;}
+}
+@keyframes myOpacity {
+  100%{opacity: 0;}
+}
+@keyframes myScale {
+  50%{transform: scale(0.5,0.5);}
+}
+@keyframes myColorChange {
+  0%{background-color: red;}
+  20%{background-color: purple;}
+  40%{background-color: yellow;}
+}
